@@ -1,12 +1,12 @@
 
 
-def reverse_each_word(sentence1)
-  my_sentence = []
-  sen_array = []
-  my_sentence = sentence1.split(" ")
-  my_sentence.each do |a|
-   sen_array << a.reverse
-   return sen_array.join()
+def reverse_each_word(string)
+  new_array = []
+  addl_array = []
+  new_array = string.split
+  new_array.each do |word|
+    addl_array << word.reverse
   end
-  return my_sentence
+third_array = addl_array.join(" ")
+third_array
 end
